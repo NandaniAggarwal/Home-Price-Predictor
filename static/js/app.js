@@ -8,6 +8,8 @@ function getBathValue() {
   return -1; // Invalid Value
 }
 
+
+
 function getBHKValue() {
   var uiBHK = document.getElementsByName("uiBHK");
   for(var i in uiBHK) {
@@ -17,6 +19,7 @@ function getBHKValue() {
   }
   return -1; // Invalid Value
 }
+
 
 function onClickedEstimatePrice() {
   console.log("Estimate price button clicked");
